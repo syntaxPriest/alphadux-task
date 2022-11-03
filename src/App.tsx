@@ -6,6 +6,7 @@ import SideNavigation from './components/sideNavigation';
 import { MainBody } from './styles/global';
 import Header from './components/header';
 import MainSection from './components/MainSection';
+import BottomNav from './components/bottomNav';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Header />
             <MainSection />
           </MainBody>
+          <BottomNav />
       </MainWrapper>
     </>
   );

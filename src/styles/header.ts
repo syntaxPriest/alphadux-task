@@ -5,6 +5,7 @@ export const MainHeader = styled.div`
     align-items:Center;
     padding:1rem 2%;
     gap: 20px;
+    z-index:1000;
 
     @media (max-width:728px){
         display:none;
