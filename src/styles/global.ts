@@ -14,5 +14,7 @@ export const MainBody = styled.div`
 
     @media (max-width:728px){
         width: 96%;
+        padding:4rem 2%;
+        margin:4rem 0 0 0;
     }
 `

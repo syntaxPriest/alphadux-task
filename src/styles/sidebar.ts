@@ -10,7 +10,11 @@ export const MainSideWrap = styled.div`
     height:100vh;
     
     @media (max-width:728px){
-        display:none;
+        position:fixed;
+        height:auto;
+        width:100%;
+        top:0;
+        left:0;
     }
 `
 
@@ -27,6 +31,15 @@ export const UserContainer = styled.div`
         height:5rem;
         object-fit:cover;
         border-radius:50%;
+
+        @media (max-width:728px){
+            width:3rem;
+            height:3rem;
+        }
+    }
+
+    @media (max-width:728px){
+        padding:0.5rem 1rem;
     }
 `
 
@@ -34,6 +47,10 @@ export const MainNavigation = styled.div`
     background: url('image/bg.svg');
     padding:1rem 1.5rem 0 1.5rem;
     line-height:5px;
+
+    @media (max-width:728px){
+        display:none;
+    }
 `
 
 export const NavigationItem = styled.div`
@@ -55,4 +72,8 @@ export const NavigationItem = styled.div`
 export const ThinLine = styled.hr`
     border-top:none;
     border-bottom: 0.2px solid #282828;
+
+    @media (max-width:728px){
+        display:none;
+    }
 `
