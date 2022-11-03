@@ -55,11 +55,14 @@ export const Section = ({ headerNote } : PropsArgs) => {
                     <SectionCard>
                         <InnerCard>
                             <InnerImage 
-                                src='image/burna.svg'
+                                src='image/lojay.svg'
                                 alt='Burna'
+                                bg='linear-gradient(89.79deg, #C61522 -19.39%, #030304 123.38%);'
                             />
-                            <TextCard>
-                                <h3>Daily life</h3>
+                            <TextCard
+                                bg='linear-gradient(89.79deg, #C61522 -19.39%, #030304 123.38%);'
+                            >
+                                <h3>Daily life 2</h3>
                                 <p>Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... </p>
                             </TextCard>
                         </InnerCard>
@@ -67,10 +70,13 @@ export const Section = ({ headerNote } : PropsArgs) => {
                     <SectionCard>
                         <InnerCard>
                             <InnerImage 
-                                src='image/burna.svg'
+                                src='image/koffee.svg'
                                 alt='Burna'
+                                bg='linear-gradient(89.79deg, #3D66A8 -19.39%, #91AAC7 123.38%);'
                             />
-                            <TextCard>
+                            <TextCard
+                                bg='linear-gradient(89.79deg, #204F9D -19.39%, #ADC0D1 123.38%);'
+                            >
                                 <h3>Daily life</h3>
                                 <p>Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... </p>
                             </TextCard>
