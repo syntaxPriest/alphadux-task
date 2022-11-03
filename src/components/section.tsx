@@ -82,6 +82,33 @@ export const Section = ({ headerNote } : PropsArgs) => {
                             </TextCard>
                         </InnerCard>
                     </SectionCard>
+                    <SectionCard>
+                        <InnerCard>
+                            <InnerImage 
+                                src='image/burna.svg'
+                                alt='Burna'
+                            />
+                            <TextCard>
+                                <h3>Daily life</h3>
+                                <p>Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... </p>
+                            </TextCard>
+                        </InnerCard>
+                    </SectionCard>
+                    <SectionCard>
+                        <InnerCard>
+                            <InnerImage 
+                                src='image/lojay.svg'
+                                alt='Burna'
+                                bg='linear-gradient(89.79deg, #C61522 -19.39%, #030304 123.38%);'
+                            />
+                            <TextCard
+                                bg='linear-gradient(89.79deg, #C61522 -19.39%, #030304 123.38%);'
+                            >
+                                <h3>Daily life 2</h3>
+                                <p>Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage..... </p>
+                            </TextCard>
+                        </InnerCard>
+                    </SectionCard>
                 </Carousel>
                 
             </div>
