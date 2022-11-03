@@ -1,0 +1,18 @@
+@font-face {
+  font-family: main-font;
+  src: url('/src/fonts/BwModelica-Regular.woff');
+}
+
+body{
+  background: '#000000';
+  font-family: main-font;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
